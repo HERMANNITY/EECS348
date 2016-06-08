@@ -1,0 +1,17 @@
+Junhan Liu(jlt587), Sixuan Yu(syj099), Guixing Lin(glv321)
+All group members were present and contributing during all work on this project. 
+
+
+1. We used curvature and bounding box area as extra features.
+2. Continuous.
+3. No thresholds are needed for continuous feature.
+4. Without the extra features, the accuracy is 275/495=56%.
+   With the extra features, the accuracy is 330/495=67%.
+   Although the improvement of performance is not significant, it’s also nontrivial.
+5. We used all files for both training and testing.
+   Confusion matrix for the naive classifier:
+   {'text': {'text': 0, 'drawing': 220}, 'drawing': {'text': 0, 'drawing': 275}}
+   Confusion matrix for the improved classifier:
+   {'text': {'text': 220, 'drawing': 0}, 'drawing': {'text': 165, 'drawing': 110}}
+
+
